@@ -1,0 +1,31 @@
+.home{
+    color:white;
+}
+.home-header{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    align-self: baseline;
+    width: 90%;
+    padding: 2rem;
+    gap:2rem;
+    margin-left: 2rem;
+}
+.home-header h1{
+    min-width: fit-content;
+}
+.search-box{
+    width: 90%;
+    height: 2.5rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.filter-body{
+    margin: auto;
+    gap:1rem;
+    display: flex;
+}
+.filter-body input{
+    padding: 1rem;
+    border-radius: 1rem;
+}

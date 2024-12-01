@@ -1,0 +1,52 @@
+.coming-soon-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.content {
+  max-width: 60rem;
+  margin: auto;
+  color: white;
+}
+
+.title {
+  font-size: 5rem;
+  margin-bottom: 1.6rem;
+  color: #ff6b6b;
+}
+
+.subtitle {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.email-input {
+  padding: 10px;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  width: 70%;
+}
+
+.notify-button {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  border: none;
+  background-color: #fff;
+  color: #2575fc;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.notify-button:hover {
+  background-color: #f0f0f0;
+}
